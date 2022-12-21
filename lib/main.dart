@@ -14,16 +14,7 @@ class Home extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.red[300],
         ),
-        body: Center(
-            child: IconButton(
-                onPressed: () {
-                  print("You clicked me");
-                },
-                icon:
-                    Icon(Icons.alternate_email), //icon data for elevated button
-                // label: Text("mail me"), //label text
-                color: Colors.amber //elevated btton background color
-                )),
+        body: Container(),
         floatingActionButton: FloatingActionButton(
           child: Text("Yolo"),
           onPressed: () {},
