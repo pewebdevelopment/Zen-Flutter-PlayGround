@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[300],
       ),
       body: Center(
-        child: Image.asset("../assets/space-1.jpg"),
+        child: Image.asset("../assets/space-3.jpg"),
       ),
       floatingActionButton: FloatingActionButton(
         child: Text("Yolo"),
