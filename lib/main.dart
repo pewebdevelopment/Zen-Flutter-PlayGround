@@ -15,11 +15,10 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[300],
       ),
       body: Center(
-        child: Icon(
-          Icons.airport_shuttle,
-          color: Colors.lightBlue,
-          size: 50.0,
-        ),
+        child: ElevatedButton(
+          onPressed: () {},
+          child: Text('click me'),
+        ), // RaisedButton
       ),
       floatingActionButton: FloatingActionButton(
         child: Text("Yolo"),
