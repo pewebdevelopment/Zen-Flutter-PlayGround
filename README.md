@@ -1,4 +1,4 @@
-# zen_flutterplayground
+# Zen's Flutter Playground
 
 A new Flutter project.
 
