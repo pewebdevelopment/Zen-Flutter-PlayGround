@@ -17,7 +17,7 @@ class Home extends StatelessWidget {
         body: Center(
             child: IconButton(
                 onPressed: () {
-                  print("You pressed Icon Elevated Button");
+                  print("You clicked me");
                 },
                 icon:
                     Icon(Icons.alternate_email), //icon data for elevated button
