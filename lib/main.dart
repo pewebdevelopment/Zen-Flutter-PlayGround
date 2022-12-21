@@ -16,18 +16,20 @@ class Home extends StatelessWidget {
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.end,
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.end,
           children: <Widget>[
             Container(
               padding: EdgeInsets.all(30.0),
-              margin: EdgeInsets.all(20.0),
               color: Colors.pinkAccent,
               child: Text('two'),
             ),
             Container(
-              padding: EdgeInsets.all(40.0),
-              color: Colors.amber,
-              child: Text('Three'),
+              padding: EdgeInsets.all(16.0),
+              child: Container(
+                padding: EdgeInsets.all(40.0),
+                color: Colors.amber,
+                child: Text('Three'),
+              ),
             ),
             Container(
               padding: EdgeInsets.all(20.0),
